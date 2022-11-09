@@ -4,5 +4,6 @@ AuctionsTableIAM:
     - 'dynamodb:PutItem'
     - 'dynamodb:Scan'
     - 'dynamodb:GetItem'
+    - 'dynamodb:UpdateItem'
   Resource: 
     - 'arn:aws:dynamodb:eu-west-1:603577043891:table/AuctionsTable'
